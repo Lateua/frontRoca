@@ -1,0 +1,37 @@
+#logo {
+    height: 4em;
+    width: 12em;
+    position:absolute;
+    top:2em;
+    left: 6em;
+}
+.sel {
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 1.5em;
+    width: 1.5em;
+    background-color: gray;
+    border-radius: 50%;
+}
+.selint {
+    position: absolute;
+    height: .8em;
+    width: .8em;
+    background-color: rgb(215, 209, 209);
+    border-radius: 50%;
+}
+#sel1 {
+    margin-left: 25em;
+    margin-top: -20em;
+}
+.sel:hover {
+    cursor: pointer;
+    background-color: rgb(215, 209, 209);
+}
+.selint:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+

@@ -1,0 +1,69 @@
+.designName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    width: 100vw;
+    background-color: black !important;
+    color: white;
+}
+.designName img {
+    width: 12em;
+    margin-right: -120em;
+    margin-top: 2em;
+}
+#name{
+    
+    background-color: black;
+    border-bottom: .3em;
+    border-style:ridge;
+    border-top:0em;
+    border-left:0em;
+    border-right:0em;
+    padding-left: 1em;
+    font-size: 1em;
+}
+#submit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 1.5em;
+        width: 6em;
+        color: black;
+        font-size: 1em;
+        background-color: white;
+        border-radius: 3em;
+        cursor: pointer;
+}
+.requirements1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+}
+form {
+    display: flex;
+}
+.hi1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70em;
+    height: 38vh;
+    margin-bottom:15em;
+    margin-top: -5em;
+
+}
+.hi1 h1 {
+    font-size: 8em;
+   
+}
+.hi1 h2 {
+    font-size: 5em;
+    margin-left: -12em;
+}
